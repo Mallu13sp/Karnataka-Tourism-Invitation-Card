@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+      * {
+        font-family: "Baloo Bhai 2", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: black;
+      }
+      .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        height: 460px;
+        width: 360px;
+        background-color: rgb(234, 238, 241);
+      }
+      .inn {
+        height: 400px;
+        width: 300px;
+        background-color: white;
+        border-radius: 10px;
+      }
+      .inn:hover {
+        box-shadow: 0px 0px 5px gray;
+      }
+      img {
+        position: relative;
+        top: 5px;
+        left: 5px;
+        border-radius: 10px;
+      }
+      .item {
+        height: 35px;
+      }
+      span {
+        font-size: small;
+        position: relative;
+        top: 5px;
+        margin: 1px;
+        border: 1px solid rgb(221, 218, 218);
+        border-radius: 12px;
+      }
+      .para {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      .button {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+      }
+      a {
+        padding: 5px;
+        text-decoration: none;
+        color: rgb(4, 61, 83);
+      }
+      button {
+        border-width: 0;
+        border-radius: 15px;
+        padding: 2px;
+        background-color: #d1e4f2;
+      }
+      button:hover {
+        box-shadow: 0px 0px 5px gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="inn">
+        <img
+          src="https://i.postimg.cc/B64H79hw/karnataka.jpg"
+          alt="karnataka"
+          height="180px"
+          width="290px"
+        />
+        <div class="item">
+          <span>Tranquility</span>
+          <span>Art Forms</span>
+          <span>Grandeur</span>
+          <span>Heritage</span>
+          <span>The Wild</span>
+        </div>
+        <h2 style="text-align: center">Welcome to Karnataka!</h2>
+        <h5 style="text-align: center"><i>💛One State. Many Worlds.❤️</i></h5>
+        <div class="para">
+          <p style="font-size: small; text-align: justify; color: gray">
+            Come and explore the hidden gems of Karnataka. The sixth largest
+            state in India is famous for its wildlife, heritage, temples,
+            monuments, beaches, adventure, food and much more.
+          </p>
+        </div>
+        <div class="button">
+          <button>
+            <a href="https://karnatakatourism.org/" target="_blank"
+              >Read More</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
